@@ -20,6 +20,8 @@ protected:
 
 public:
 
+	bool IsDead() const;
+
 	virtual void Tick(float DeltaTime) override;
 
 private:
