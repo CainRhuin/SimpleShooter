@@ -25,5 +25,7 @@ public:
 private:
 
 	UPROPERTY(EditAnywhere)
-	float AcceptanceRadius = 500.f;
+	class UBehaviorTree* AIBehavior;
+
+
 };
