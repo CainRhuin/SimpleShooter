@@ -10,6 +10,16 @@
 		"directory": "D:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "D:\\\\Unreal Projects\\\\SimpleShooter\\\\Source\\\\SimpleShooter\\\\BTTask_Shoot.cpp",
+		"command": "cl.exe @\"D:\\Unreal Projects\\SimpleShooter\\.vscode\\compileCommands_Default\\SimpleShooter.190.rsp\"",
+		"directory": "D:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "D:\\\\Unreal Projects\\\\SimpleShooter\\\\Source\\\\SimpleShooter\\\\BTTask_Shoot.h",
+		"command": "cl.exe @\"D:\\Unreal Projects\\SimpleShooter\\.vscode\\compileCommands_Default\\SimpleShooter.190.rsp\"",
+		"directory": "D:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "D:\\\\Unreal Projects\\\\SimpleShooter\\\\Source\\\\SimpleShooter\\\\Gun.cpp",
 		"command": "cl.exe @\"D:\\Unreal Projects\\SimpleShooter\\.vscode\\compileCommands_Default\\SimpleShooter.190.rsp\"",
 		"directory": "D:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
