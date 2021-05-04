@@ -50,4 +50,7 @@ private:
 	float MaxHealth = 100.f;
 	UPROPERTY(VisibleAnywhere)
 	float CurrentHealth = 0.f;
+
+	UFUNCTION(BlueprintPure)
+	bool IsDead() const;
 };
