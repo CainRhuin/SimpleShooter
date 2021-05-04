@@ -41,4 +41,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	UParticleSystem* Impact;
 
+	UPROPERTY(EditAnywhere)
+	float Damage = 10.f;
+
 };
