@@ -62,12 +62,14 @@ AController* AGun::GetOwnerController() const
 void AGun::PullTrigger() 
 {
 	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
+	UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlashSocket"));
 	FHitResult Hit;
 	FVector ShotDirection;
 	bool bHitSomething = GunTrace(Hit, ShotDirection);
 	if (bHitSomething)
 	{
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Impact, Hit.Location, ShotDirection.Rotation());
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 		AActor* HitActor = Hit.GetActor();
 		if (HitActor != nullptr)
 		{
